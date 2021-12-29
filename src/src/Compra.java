@@ -1,6 +1,6 @@
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+//import java.util.Collections;
+//import java.util.List;
 
 public class Compra {
     private Funcionario funcionario;
@@ -22,7 +22,7 @@ public class Compra {
         System.out.println("---------------------Lista de Compras-----------------------------");
         System.out.println("Funcionário: " + funcionario.getNome() + "\nCliente: " + cliente.getNome());
         
-        Collections.sort((List<produto>) produtos);
+        //Collections.sort((List<produto>) produtos);
 
         for(Produto produto : produtos) {
             System.out.println(produto);

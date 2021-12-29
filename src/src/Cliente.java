@@ -6,6 +6,6 @@ public class Cliente extends Pessoa {
     
     @Override
     public String toString() {
-        return "Nome: " + getNome() + "\n CPF: " + getCpf() + "\n Celular: " + getCelular();
+        return "Nome: " + getNome() + "\nCPF: " + getCpf() + "\nCelular: " + getCelular();
     }
 }
